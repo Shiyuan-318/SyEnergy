@@ -1,0 +1,15 @@
+name: SyEnergy
+version: '1.0.0'
+main: com.shiyuan.syenergy.SyEnergy
+api-version: '1.21'
+author: Shiyuan
+description: Minecraft Purpur 1.21.11 plugin for saving system resources
+
+# 插件依赖和加载顺序
+load: POSTWORLD
+
+# 权限设置
+permissions:
+  syenergy.bypass:
+    description: 绕过省电模式
+    default: false

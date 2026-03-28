@@ -1,0 +1,29 @@
+# SyEnergy 配置文件
+# 作者: Shiyuan
+# 版本: 1.0.0
+
+# 玩家静止多长时间后触发省电模式 (单位: 秒)
+# 默认: 60秒
+idle-time: 60
+
+# 省电模式下的渲染距离
+# 默认: 2
+energy-saving-view-distance: 2
+
+# 省电模式下的模拟距离
+# 默认: 2
+energy-saving-simulation-distance: 2
+
+# 是否在省电模式下给予玩家生命恢复效果
+# 默认: true
+give-regeneration: true
+
+# 消息提示设置
+messages:
+  # 进入省电模式提示
+  # 可用占位符: {player} - 玩家名称
+  enter-energy-saving: "&a[SyEnergy] &7你已进入省电模式，渲染和模拟距离已降低"
+  
+  # 退出省电模式提示
+  # 可用占位符: {player} - 玩家名称
+  exit-energy-saving: "&a[SyEnergy] &7你已退出省电模式，渲染和模拟距离已恢复"
